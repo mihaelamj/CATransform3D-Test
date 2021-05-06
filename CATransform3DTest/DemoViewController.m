@@ -94,8 +94,7 @@ static char const * const maxValueTagKey = "maxValueTagKey";
     int btn_height = 40;
     int x_gap = (matrixBoxView.frame.size.width-btn_width*4)/3;
     int y_gap = (matrixBoxView.frame.size.height-btn_height*4)/3;
-    for (int row=0; row<4; row++)
-    {
+    for (int row=0; row<4; row++)  {
         for (int col=0; col<4; col++)
         {
             int x = (btn_width+x_gap)*col;

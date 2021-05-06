@@ -16,25 +16,10 @@
 		F8952BF216C1FA9500C5A798 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F8952BF116C1FA9500C5A798 /* Default.png */; };
 		F8952BF416C1FA9500C5A798 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8952BF316C1FA9500C5A798 /* Default@2x.png */; };
 		F8952BF616C1FA9500C5A798 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8952BF516C1FA9500C5A798 /* Default-568h@2x.png */; };
-		F8952BFE16C1FA9500C5A798 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8952BFD16C1FA9500C5A798 /* SenTestingKit.framework */; };
-		F8952BFF16C1FA9500C5A798 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8952BDF16C1FA9400C5A798 /* UIKit.framework */; };
-		F8952C0016C1FA9500C5A798 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8952BE116C1FA9400C5A798 /* Foundation.framework */; };
-		F8952C0816C1FA9500C5A798 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8952C0616C1FA9500C5A798 /* InfoPlist.strings */; };
-		F8952C0B16C1FA9500C5A798 /* CATransform3DTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8952C0A16C1FA9500C5A798 /* CATransform3DTestTests.m */; };
 		F8952C1616C1FAA000C5A798 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8952C1516C1FAA000C5A798 /* DemoViewController.m */; };
 		F8952C1816C2011200C5A798 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8952C1716C2011200C5A798 /* QuartzCore.framework */; };
 		F8CAB11516C2AA5F00EF1BC1 /* GridView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CAB11416C2AA5F00EF1BC1 /* GridView.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F8952C0116C1FA9500C5A798 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F8952BD416C1FA9400C5A798 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F8952BDB16C1FA9400C5A798;
-			remoteInfo = CATransform3DTest;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F8952BDC16C1FA9400C5A798 /* CATransform3DTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CATransform3DTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,7 +35,6 @@
 		F8952BF116C1FA9500C5A798 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F8952BF316C1FA9500C5A798 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		F8952BF516C1FA9500C5A798 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		F8952BFC16C1FA9500C5A798 /* CATransform3DTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CATransform3DTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8952BFD16C1FA9500C5A798 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		F8952C0516C1FA9500C5A798 /* CATransform3DTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CATransform3DTestTests-Info.plist"; sourceTree = "<group>"; };
 		F8952C0716C1FA9500C5A798 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -75,16 +59,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8952BF816C1FA9500C5A798 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8952BFE16C1FA9500C5A798 /* SenTestingKit.framework in Frameworks */,
-				F8952BFF16C1FA9500C5A798 /* UIKit.framework in Frameworks */,
-				F8952C0016C1FA9500C5A798 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -102,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				F8952BDC16C1FA9400C5A798 /* CATransform3DTest.app */,
-				F8952BFC16C1FA9500C5A798 /* CATransform3DTestTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -186,25 +159,6 @@
 			productReference = F8952BDC16C1FA9400C5A798 /* CATransform3DTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F8952BFB16C1FA9500C5A798 /* CATransform3DTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F8952C1116C1FA9500C5A798 /* Build configuration list for PBXNativeTarget "CATransform3DTestTests" */;
-			buildPhases = (
-				F8952BF716C1FA9500C5A798 /* Sources */,
-				F8952BF816C1FA9500C5A798 /* Frameworks */,
-				F8952BF916C1FA9500C5A798 /* Resources */,
-				F8952BFA16C1FA9500C5A798 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F8952C0216C1FA9500C5A798 /* PBXTargetDependency */,
-			);
-			name = CATransform3DTestTests;
-			productName = CATransform3DTestTests;
-			productReference = F8952BFC16C1FA9500C5A798 /* CATransform3DTestTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -219,6 +173,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = F8952BD316C1FA9400C5A798;
@@ -227,7 +182,6 @@
 			projectRoot = "";
 			targets = (
 				F8952BDB16C1FA9400C5A798 /* CATransform3DTest */,
-				F8952BFB16C1FA9500C5A798 /* CATransform3DTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,31 +198,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8952BF916C1FA9500C5A798 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8952C0816C1FA9500C5A798 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		F8952BFA16C1FA9500C5A798 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F8952BD816C1FA9400C5A798 /* Sources */ = {
@@ -282,23 +212,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8952BF716C1FA9500C5A798 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8952C0B16C1FA9500C5A798 /* CATransform3DTestTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F8952C0216C1FA9500C5A798 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F8952BDB16C1FA9400C5A798 /* CATransform3DTest */;
-			targetProxy = F8952C0116C1FA9500C5A798 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F8952BE816C1FA9500C5A798 /* InfoPlist.strings */ = {
@@ -345,7 +259,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -370,7 +284,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -400,40 +314,6 @@
 			};
 			name = Release;
 		};
-		F8952C1216C1FA9500C5A798 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CATransform3DTest.app/CATransform3DTest";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CATransform3DTest/CATransform3DTest-Prefix.pch";
-				INFOPLIST_FILE = "CATransform3DTestTests/CATransform3DTestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		F8952C1316C1FA9500C5A798 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CATransform3DTest.app/CATransform3DTest";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CATransform3DTest/CATransform3DTest-Prefix.pch";
-				INFOPLIST_FILE = "CATransform3DTestTests/CATransform3DTestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -451,15 +331,6 @@
 			buildConfigurations = (
 				F8952C0F16C1FA9500C5A798 /* Debug */,
 				F8952C1016C1FA9500C5A798 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F8952C1116C1FA9500C5A798 /* Build configuration list for PBXNativeTarget "CATransform3DTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F8952C1216C1FA9500C5A798 /* Debug */,
-				F8952C1316C1FA9500C5A798 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

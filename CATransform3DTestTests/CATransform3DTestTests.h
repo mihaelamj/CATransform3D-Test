@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Hon Cheng Muh. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
-
-@interface CATransform3DTestTests : SenTestCase
-
-@end
+//#import <SenTestingKit/SenTestingKit.h>
+//
+//@interface CATransform3DTestTests : SenTestCase
+//
+//@end

@@ -33,12 +33,10 @@
     
     int size = 10.0;
     CGContextSetFillColorWithColor(contextRef, [UIColor blackColor].CGColor);
-    for (int i=0; i<=self.frame.size.width; i+=size)
-    {
+    for (int i=0; i<=self.frame.size.width; i+=size) {
         CGContextFillRect(contextRef, CGRectMake(i, 0, 1, self.frame.size.height));
     }
-    for (int j=0; j<=self.frame.size.height; j+=size)
-    {
+    for (int j=0; j<=self.frame.size.height; j+=size) {
         CGContextFillRect(contextRef, CGRectMake(0, j, self.frame.size.width, 1));
     }
     
