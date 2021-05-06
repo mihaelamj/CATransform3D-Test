@@ -362,6 +362,8 @@ static char const * const maxValueTagKey = "maxValueTagKey";
     self.gridView.layer.transform = concatenatedTransformation;
 }
 
+//  Gesture recognizers =
+
 - (void)onViewPanned:(UIPanGestureRecognizer*)gesture
 {
     CGPoint translation = [gesture translationInView:self.view];
